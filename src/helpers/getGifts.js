@@ -11,6 +11,5 @@ export const  getGifts = async(category) => {
         }
     });
 
-    console.log(gifs);
     return gifs;
 }
